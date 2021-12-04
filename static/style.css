@@ -27,8 +27,7 @@ header {
 }
 
 article {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15%
 }
 
 footer {
@@ -51,6 +50,11 @@ img {
 img.vipps {
     box-shadow: 5px 5px rgb(20, 49, 106);
     border-radius: 5%;
+}
+
+a {
+    color: #0051c3;
+    text-decoration: none;
 }
 
 p, figcaption {
@@ -97,3 +101,9 @@ header > h1 {
         flex-direction: column;
     }
   }
+
+
+a:hover {
+    text-decoration: underline;
+    color: #0041b3;
+}
