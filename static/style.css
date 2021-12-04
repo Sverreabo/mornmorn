@@ -16,6 +16,7 @@ body {
     margin: auto;
     max-width: 12cm;
     text-align: center;
+    padding: 1%;
 }
 
 header {
@@ -26,7 +27,8 @@ header {
 }
 
 article {
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -35,17 +37,29 @@ footer {
     background-color: rgb(147, 149, 211);
 }
 
-img.vipps {
-    box-shadow: 5px 5px rgb(20, 49, 106);
-    border-radius: 5%;
+figure {
+    margin: 0;
+}
+
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 99%;
 }
 
-p {
+img.vipps {
+    box-shadow: 5px 5px rgb(20, 49, 106);
+    border-radius: 5%;
+}
+
+p, figcaption {
     color: rgb(40, 40, 40);
+}
+
+figcaption {
+    font-size: smaller;
+    margin-left: 2px;
 }
 
 header > h1 {
@@ -63,6 +77,10 @@ header > h1 {
     justify-content: space-between;
 }
 
+.text-align-left {
+    text-align: left;
+}
+
 .bold {
     font-family: "Arial Black", Arial, Helvetica, sans-serif;
 }
@@ -77,11 +95,5 @@ header > h1 {
     }
     .flex {
         flex-direction: column;
-    }
-    img.vipps {
-        width: 95%;
-    }
-    #main-content {
-        padding: 1%;
     }
   }
