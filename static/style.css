@@ -53,6 +53,11 @@ img.vipps {
     border-radius: 5%;
 }
 
+a {
+    color: #0051c3;
+    text-decoration: none;
+}
+
 p, figcaption {
     color: rgb(40, 40, 40);
 }
@@ -97,3 +102,9 @@ header > h1 {
         flex-direction: column;
     }
   }
+
+
+a:hover {
+    text-decoration: underline;
+    color: #0041b3;
+}
