@@ -51,6 +51,7 @@ img.vipps {
     box-shadow: 1vw 1vw rgb(20, 49, 106);
     border-radius: 5%;
     max-width: 10cm;
+    margin-bottom: 1.5vw;
 }
 
 a {
